@@ -35,7 +35,7 @@ services:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
       interval: 5s
       timeout: 10s
-      retries: 3
+      retries: 10
   nginx:
     build: 
       context: ./nginx
