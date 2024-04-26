@@ -3,3 +3,4 @@
 *.ldf
 *.sock
 node/node_modules/*
+mysql/*
